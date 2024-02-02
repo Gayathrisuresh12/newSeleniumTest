@@ -14,7 +14,7 @@ public class Base {
 	@BeforeMethod
 	public void initializeBrowser() {
 		driver = new ChromeDriver();
-		driver.get("https://selenium.obsqurazone.com/simple-form-demo.php");
+		driver.get("https://groceryapp.uniqassosiates.com/admin");
 		driver.manage().timeouts().implicitlyWait(Duration.ofSeconds(15));
 		driver.manage().window().maximize();
 		

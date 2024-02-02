@@ -47,8 +47,8 @@ public class DropdownWork extends Base{
 		DropdownWork dropdownWork = new DropdownWork();
 		dropdownWork.initializeBrowser();
 //		dropdownWork.selectClassSample();
-		dropdownWork.dropdownValue();
-//		dropdownWork.checkBoxButton();
+//		dropdownWork.dropdownValue();
+		dropdownWork.checkBoxButton();
 		dropdownWork.driverQuit();
 
 		
